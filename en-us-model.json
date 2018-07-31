@@ -1,0 +1,332 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "channel unlocker",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ChannelIntent",
+                    "slots": [
+                        {
+                            "name": "Channel",
+                            "type": "Channel"
+                        }
+                    ],
+                    "samples": [
+                        "unlock {Channel}",
+                        "{Channel}"
+                    ]
+                },
+                {
+                    "name": "CodeIntent",
+                    "slots": [
+                        {
+                            "name": "DigitOne",
+                            "type": "CodeDigit"
+                        },
+                        {
+                            "name": "DigitTwo",
+                            "type": "CodeDigit"
+                        },
+                        {
+                            "name": "DigitThree",
+                            "type": "CodeDigit"
+                        },
+                        {
+                            "name": "DigitFour",
+                            "type": "CodeDigit"
+                        },
+                        {
+                            "name": "DigitFive",
+                            "type": "CodeDigit"
+                        },
+                        {
+                            "name": "DigitSix",
+                            "type": "CodeDigit"
+                        },
+                        {
+                            "name": "DigitSeven",
+                            "type": "CodeDigit"
+                        }
+                    ],
+                    "samples": [
+                        "{DigitOne} {DigitTwo} {DigitThree} {DigitFour} {DigitFive} {DigitSix} {DigitSeven}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "CodeDigit",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "nine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eight"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "seven"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "six"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "five"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "four"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "three"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "two"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "one"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "zero"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "z.",
+                                "synonyms": [
+                                    "zee"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "y.",
+                                "synonyms": [
+                                    "why"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "x."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "w."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "v.",
+                                "synonyms": [
+                                    "vee"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "u.",
+                                "synonyms": [
+                                    "you"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "t.",
+                                "synonyms": [
+                                    "tea",
+                                    "tee"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "s."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "r.",
+                                "synonyms": [
+                                    "are"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "q."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "p.",
+                                "synonyms": [
+                                    "pea",
+                                    "pee"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "o.",
+                                "synonyms": [
+                                    "oh"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "n."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "m."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "l."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "k.",
+                                "synonyms": [
+                                    "kay"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "j.",
+                                "synonyms": [
+                                    "jay"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "i.",
+                                "synonyms": [
+                                    "i",
+                                    "eye"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "h."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "g.",
+                                "synonyms": [
+                                    "gee"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "f."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "e."
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "d.",
+                                "synonyms": [
+                                    "dee"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "c.",
+                                "synonyms": [
+                                    "sea",
+                                    "see"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "b.",
+                                "synonyms": [
+                                    "bee",
+                                    "be"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a.",
+                                "synonyms": [
+                                    "a"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Channel",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "nick junior",
+                                "synonyms": [
+                                    "nick jr."
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "disney"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
